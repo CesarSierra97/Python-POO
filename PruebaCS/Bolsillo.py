@@ -59,7 +59,7 @@ class Bolsillo:
         print(f"Nombre: {self.nombreBolsillo}")
         print(f"Numero: {self.numCel}")
         print(f"Password: {self.clave}")
-        if self.estadoBolsillo==True:
+        if self.estadoBolsillo:
             print(f"Estado: Activo")
         else:
             print(f"Estado: Inactivo")
